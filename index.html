@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>ARISE Photo Album</title>
+  <style>
+    #video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-height: 100%;
+      min-width: 100%;
+    }
+  .container-one {
+    position: fixed;
+    bottom: 500px;
+    left: 200px;
+    top: 600px;
+    right: 200px;
+    color: white;
+    font-size: 3rem;
+    
+  }
+  .one {
+    border: 2px solid white;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+    
+  .container-two {
+    position: fixed;
+    bottom: 500px;
+    left: 200px;
+    top: 750px;
+    right: 200px;
+    color: white;
+    font-size: 3rem;
+    
+  }
+  .two {
+    border: 2px solid white;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-align: center;
+    background: black;
+  }
+    
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  </style>
+</head>
+<body>
+  <video autoplay muted loop id="video">
+    <source src="black-background.mp4" type="video/mp4">
+  </video>
+  <div class="container-one">
+     <p class="one">Arise <sup>1.0</sup></p>
+  </div>
+  <div class="container-two">
+    <a href="https://arise-two-point-zero.vercel.app"><p class="two">Arise <sup>2.0</sup></p></a>
+  </div>
+</body>
+</html>
