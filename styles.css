@@ -1,0 +1,74 @@
+
+    #video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      height: auto;
+      width: auto;
+      z-index: -1;
+  }
+ 
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+  a:active {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  .navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+  }
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.arise-one, .arise-two, .arise-three, .arise-four {
+  border: 2px solid orange;
+  border-radius: 20px;
+  padding: 30px 100px;
+  background: black;
+}
+
+
+.welcome {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+}
+
+.tym {
+  font-size: 4rem;
+}
+
+.album {
+  margin-top: 130px;
+  font-size: 2rem;
+}
+
+
+.tym-meaning {
+  color: white; 
+  margin:30px; 
+  padding: 30px; 
+  font-size: 1.1rem;
+  
+}
